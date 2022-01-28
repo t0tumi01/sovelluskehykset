@@ -4,7 +4,7 @@ export default function HeadLines(props) {
   console.log(props);
     return (
     <div>
-        <ul>
+        <ul Style="padding-left: 0px;">
             {
                 props.listItems.map(i => {
                     if(i.isAdv)

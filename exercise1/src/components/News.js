@@ -6,7 +6,7 @@ export default function HeadLines(props) {
     <div className="news">
         {
             props.items.map(i => {
-                    return <div><img src={i.img} width={i.scale} alt="news Pic" /></div>
+                    return <img src={i.img} alt="news Pic" />
             })
         }
       </div>)

@@ -1,17 +1,18 @@
 .top-menubar {
   background-color: rgb(0, 0, 90);
-  color: white;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 10pt;
 }
 
 .top-menu {
   display: flex;
-  width: 90%;
-  height: 80px;
+  height: 70px;
   align-items: center;
+  justify-content: center;
   margin-left: auto;
+  margin-right: auto;
   gap: 30px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 10pt;
 }
 
 .order { 
@@ -34,39 +35,35 @@
   border-color: white;
 }
 
+.main-content
+{
+  width: 963px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .headLine {
-  margin: 5px;
-  width: 85%;
+  margin-bottom: 5px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 12pt;
   padding: 15px;
-  margin-left: auto;
-  margin-right: auto;
   background-color: rgb(0, 128, 128);
   color: white;
 }
 
 .headLineAdv {
-  margin: 5px;
-  width: 85%;
+  margin-bottom: 5px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 12pt;
   padding: 15px;
-  margin-left: auto;
-  margin-right: auto;
   background-color: rgb(94, 162, 252);
   color: white;
 }
 
 .news {
   display: grid;
-  padding-left: 40px;
-  width: 85%;
-  margin-left: auto;
-  margin-right: auto;
-  grid-auto-flow: row;
-  grid-template-columns: repeat(2, 2fr);
-  grid-template-rows: repeat(2, 2fr);
-  column-gap: 5px;
-  row-gap: 5px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: masonry;
+  row-gap: 10px;
+  column-gap: 10px;
 }
