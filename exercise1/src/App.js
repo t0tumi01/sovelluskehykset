@@ -20,19 +20,29 @@ function App() {
 
   const NewsContent = [
     {
-      img: "images/newsLeft.png", 
+      img: "images/newsL1.png", 
       scale: "100%"
     },
     {
-      img: "images/newsRight.png",
+      img: "images/newsR1.png",
+      scale: "100%"
+    },
+    {
+      img: "images/newsL2.png", 
+      scale: "100%"
+    },
+    {
+      img: "images/newsR2.png", 
       scale: "100%"
     }];
   
   return (
     <div>
       <TopMenu />
-      <HeadLines listItems={HeadLinesContent}/>
-      <News items={NewsContent}/>
+      <div className='main-content'>
+        <HeadLines listItems={HeadLinesContent}/>
+        <News items={NewsContent}/>
+      </div>
     </div>
   );
 }
