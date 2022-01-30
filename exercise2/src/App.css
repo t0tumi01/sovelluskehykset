@@ -1,0 +1,33 @@
+.App {
+  margin: 50px;
+  color: black;
+}
+.Title {
+  background-color: yellow;
+}
+h3 {
+  color: gray;
+}
+
+table {
+  margin-left: 50px;
+  border-collapse:separate;
+  border-spacing: 0 5px;
+}
+tr {
+  background-color: pink;
+}
+td {
+  padding: 5px;
+  padding-right: 98px;
+}
+
+button {
+  margin-top: 30px;
+  margin-right: 10px;
+  padding: 10px;
+  background-color: lightblue;
+}
+.ClearButton {
+  background-color: red;
+}
