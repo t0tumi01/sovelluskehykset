@@ -1,0 +1,68 @@
+{
+    "data":[
+        {
+            "id": 0,
+            "visible": true,
+            "description" : "Apple Pencil (2nd Generation)",
+            "price" : "119.00",
+            "starsImg" : "Stars/5.png",
+            "ratingsCount" : "50,320",
+            "prodImg" : "ProductImages/ApplePencil.png"
+        },
+        {
+            "id": 1,
+            "visible": true,
+            "description" : "Seagate Portable 2TB External Hard Drive Portable HDD - USB 3.0 for PC, Mac, PlayStation, & Xbox - 1-Year Rescue Service (STX2000400)",
+            "price" : "59.99",
+            "starsImg" : "Stars/4h.png",
+            "ratingsCount" : "178,113",
+            "prodImg" : "ProductImages/Seagate_HDD_2TB.png"
+        },
+        {
+            "id": 2,
+            "visible": true,
+            "description" : "HP 24mh FHD Monitor - Computer Monitor with 23.8-Inch IPS Display (1080p) - Built-In Speakers and VESA Mounting - Height/Tilt Adjustment",
+            "price" : "226.99",
+            "starsImg" : "Stars/4h.png",
+            "ratingsCount" : "20,008",
+            "prodImg" : "ProductImages/HP_24mh_Monitor.png"
+        },
+        {
+            "id": 3,
+            "visible": true,
+            "description" : "Original HP 63XL Black High-yield Ink Cartridge | Works with HP DeskJet 1112, 2130, 3630 Series; HP ENVY 4510, 4520 Series; HP OfficeJet 3830, 4650, 5200",
+            "price" : "226.99",
+            "starsImg" : "Stars/5.png",
+            "ratingsCount" : "36,451",
+            "prodImg" : "ProductImages/HPenvy4510ink.png"
+        },
+        {
+            "id": 4,
+            "visible": true,
+            "description" : "Roku Streaming Stick+ | HD/4K/HDR Streaming Device with Long-range Wireless and Roku Voice Remote with TV Controls",
+            "price" : "29.99",
+            "starsImg" : "Stars/4h.png",
+            "ratingsCount" : "110,491",
+            "prodImg" : "ProductImages/Roku.png"
+        },
+        {
+            "id": 5,
+            "visible": true,
+            "description" : "Logitech MK270 Wireless Keyboard and Mouse Combo for Windows, 2.4 GHz Wireless, Compact Mouse, 8 Multimedia and Shortcut Keys, 2-Year Battery Life",
+            "price" : "47.90",
+            "starsImg" : "Stars/4h.png",
+            "ratingsCount" : "59,567",
+            "prodImg" : "ProductImages/Logitech_MK270.png"
+        },
+        {
+            "id": 6,
+            "visible": true,
+            "description" : "iPhone Charger, TAKAGI Lightning Cable 3PACK 6FT Nylon Braided USB Charging Cable High Speed Data Sync Transfer Cord Compatible with iPhone 13/12/11 Pro",
+            "price" : "9.99",
+            "starsImg" : "Stars/4h.png",
+            "ratingsCount" : "55,343",
+            "prodImg" : "ProductImages/Cables.png"
+        }
+
+    ]
+}
